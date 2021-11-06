@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #fafafa;
+  font-family: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+.menu {
+  background: #fafafa;
+  height: 100vh;
+  width: 240px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  outline: none;
+}
+.menu .menu-text {
+  padding: 2rem 3rem;
+}
+.menu .menu-text h1 {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-family: "Times New Roman", serif;
+}
+.menu ul {
+  list-style: none;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  line-height: 2;
+  color: #989797;
+}
+.menu ul li {
+  padding: 1rem 2rem;
+  font-size: 0.95em;
+  font-weight: regular;
+  background-repeat: no-repeat;
+  background-position: left 15px center;
+  background-size: auto 20px;
+  transition: all 0.15s linear;
+  cursor: pointer;
+}
+.menu ul li:first-child {
+  text-decoration-line: line-through;
+  text-decoration-color: red;
+}
+.cart-btn {
+  background-color: #ff4e4e;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  padding: 16px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 50px;
+}
